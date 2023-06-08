@@ -1,13 +1,10 @@
 """
-
-My Homework 3 was having a few errors due to which it wasn't generating required output. In this code
-I have initially tired to get the correct output. To have a more accurate recommendation system, the 
-hybrid here uses model based collaborative filtering as the base. To improve the performance of model
-based CF I performed data preprocessing so as to have more information from the same data. I have 
-performed Principal Component Analysis to increase data interpretability and dimension reduction. I
-used only the 10 most important features thus generated. Over model based CF, I then utitlised item 
-based collaborative filtering. I used prediction generared by item based as one of the feature to 
-model based CF.
+In this code I create a recommendation system using hybrid method.The hybrid here uses model based 
+collaborative filtering as the base. To improve the performance of model based CF I performed data 
+preprocessing so as to have more information from the same data. I have performed Principal Component 
+Analysis to increase data interpretability and dimension reduction. I used only the 10 most important 
+features thus generated. Over model based CF, I then utitlised item based collaborative filtering. I 
+used prediction generared by item based as one of the feature to model based CF.
 
 Error Distribution:
 >=0 and <1: 105773
